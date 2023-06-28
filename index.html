@@ -9,14 +9,20 @@
         <h1>SITE IN PROGRESS</h1>
         <p>V15</p>
         <p>This is the future site that will hold rolol0ko's corner of the internet!</p>
+        <p>If anyone knows how to display images from an api tell me beacuse i am struggling</p>
         
         <script type="text/javascript">
-            var apiUrl = 'https://shibe.online/api/shibes?count=1';
+            function myFunction() {
+                var apiUrl = 'https://shibe.online/api/shibes?count=1';
 
-            var json = fetch(apiUrl)
-            .then((response) => response.json())
-            .then((json) => console.log(json))
-            .then((json) => console.log(json.tostring()));
+                var response = fetch(apiUrl)
+                .then((response) => response.json())
+                .then((json) => console.log(json));
+
+                return response
+            }
+
+            console.log(JSON.stringify(myFunction))
 
         </script>
 
