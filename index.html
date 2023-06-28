@@ -15,6 +15,8 @@
               return response.json();
             }).then(data => {
               console.log(data);
+              var image = concat(data)
+              console.log(image);
             }).catch(err => {
               // Do something for an error here
             });
