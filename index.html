@@ -7,6 +7,7 @@
     </head>
     <body>
         <h1>SITE IN PROGRESS</h1>
+        <p>V12</p>
         <p>This is the future site that will hold rolol0ko's corner of the internet!</p>
         
         <script type="text/javascript">
@@ -15,7 +16,7 @@
               return response.json();
             }).then(data => {
               console.log(data);
-              var image = concat(data)
+              var image = data.tostring();
               console.log(image);
             }).catch(err => {
               // Do something for an error here
