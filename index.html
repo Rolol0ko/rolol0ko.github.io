@@ -7,23 +7,20 @@
     </head>
     <body>
         <h1>SITE IN PROGRESS</h1>
-        <p>V12</p>
+        <p>V13</p>
         <p>This is the future site that will hold rolol0ko's corner of the internet!</p>
         
         <script type="text/javascript">
             var apiUrl = 'https://shibe.online/api/shibes?count=1';
-            fetch(apiUrl).then(response => {
-              return response.json();
-            }).then(data => {
-              console.log(data);
-              var image = data.tostring();
-              console.log(image);
-            }).catch(err => {
-              // Do something for an error here
-            });
+
+            var json = fetch(apiUrl)
+            .then((response) => response.json())
+            .then((json) => console.log(json));
+
+            console.log(json)
         </script>
 
-        <img src="pic_trulli.jpg" alt="Italian Trulli">
+        <img src="" alt="Image No Worky">
         
     </body>
 </html>
