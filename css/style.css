@@ -1,8 +1,47 @@
 body {
-    background-color: #fbd9fc;
+    background-color: #fcb1ff;
+    font-size: 100%;
 }
  
 h1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1em;
+}
+
+footer {
+    text-align: right;
+    padding: 1em;
+    background-color: #000000;
+    color: #fbd9fc;
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: #e9d628;
     color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto
 }
