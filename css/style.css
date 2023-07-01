@@ -1,47 +1,81 @@
-body {
-    background-color: #fcb1ff;
-    font-size: 100%;
-}
- 
-h1 {
+/* Sections */
+/* Color list:
+    #d9afab <- Tea Rose (Red)
+    #ffee93 <- Flax
+    #32936F <- Sea Green
+    #9CF6F6 <- Ice Blue
+    $2E2F2F <- Jet
+*/
+
+header {
     font-family: monospace;
     text-align: center;
-    font-size: 3.5em;
+    padding: 1em;
+    color: #2e2f2f;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 5px 5px 2px #ffee93;
+}
+
+nav {
+    font-family: monospace;
+    text-align: left;
+    padding: 1em;
+    background-color: #2e2f2f;
+    color: #ffee93;
+    display: block;
+}
+
+body {
+    font-family: monospace;
+    background-color: #d9afab;
+    color: #2e2f2f;
+    font-size: 100%;
+}
+
+footer {
+    font-family: monospace;
+    text-align: right;
+    padding: 1em;
+    background-color: #2e2f2f;
+    color: #ffee93;
+}
+
+div {
+    font-family: monospace;
+    padding: 1em;
+}
+
+/* Types of Text */
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: inherit;
 }
 
 h2 {
     font-family: monospace;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
+    color: inherit;
 }
 
 p {
-    font-size: 1em
+    font-size: 1.5em;
+    color: inherit;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    padding: 1em;
-}
-
-footer {
-    text-align: right;
-    padding: 1em;
-    background-color: #000000;
-    color: #fbd9fc;
-    display: block;
-}
-
-header {
-    text-align: center;
-    padding: 3px;
-    background-color: #e9d628;
-    color: #000000;
-    display: block;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto
+    padding: 1em;
+}
+
+a {
+    color: inherit;
+    font-size: 1.5em;
 }
