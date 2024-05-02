@@ -43,6 +43,13 @@ footer {
     color: #ffee93;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
 div {
     font-family: monospace;
     padding: 1em;
